@@ -1,1 +1,96 @@
 @import "/global/global.css";
+
+.main{
+    background: var(--dutch-white);
+}
+
+#header{
+    margin-top: 5rem;
+    width: 100.1%;
+}
+
+h2{
+    font-family: "Anton", serif;
+    font-size: 3.344rem;
+}
+
+.culinaria{
+    margin-top: 5rem;
+    font-family: "Trocchi", serif;
+    margin-inline: 4rem;
+    align-items: center;
+    display: inline-block;
+}
+
+.culinaria h2{
+    color: var(--gold);
+}
+
+.culinaria p{
+    display: inline-block;
+    font-size: 1.2rem;
+}
+
+.culinaria img{
+    display: inline-block;
+    width: 30rem;
+    height: 13rem;
+    margin-left: 15rem;
+    border-radius: 1.813rem;
+}
+
+.literatura{
+    margin-top: 5rem;
+    font-family: "Trocchi", serif;
+    font-size: 1.2rem;
+    margin-inline: 4rem;
+    margin-bottom: 6rem;
+    align-items: center;
+    display: inline-block;
+}
+
+.literatura h2{
+    color: var(--wine);
+    margin-left: 75rem;
+}
+
+.literatura img{
+    display: inline-block;
+    width: 30rem;
+    height: 15rem;
+    margin-right: 18rem;
+    border-radius: 1.813rem;
+}
+
+.literatura p{
+    display: inline-block;
+    font-size: 1.2rem;
+}
+
+.religiao{
+    margin-top: 5rem;
+    font-family: "Trocchi", serif;
+    font-size: 1.2rem;
+    margin-inline: 4rem;
+    margin-bottom: 6rem;
+    align-items: center;
+    display: inline-block;
+    margin-bottom: 5rem;
+}
+
+.religiao h2{
+    color: var(--gold);
+}
+
+.religiao img{
+    display: inline-block;
+    width: 30rem;
+    height: 15rem;
+    margin-left: 15rem;
+    border-radius: 1.813rem;
+}
+
+.religiao p{
+    display: inline-block;
+    font-size: 1.2rem;
+}

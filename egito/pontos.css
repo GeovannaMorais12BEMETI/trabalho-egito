@@ -1,1 +1,39 @@
 @import "/global/global.css";
+
+h1{
+    font-family: "Anton", serif;
+    font-size: 3.344rem;
+    color: var(--wine);
+    text-align: center;
+}
+
+.primeiro {
+    display: inline-block;
+    height: 10rem;
+    width: 15rem;
+   
+}
+
+
+.segundo {
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.segundo h2 {
+    font-family: "Anton", serif;
+    color: var(--gold);
+    font-size: 2.344rem;
+}
+.segundo p {
+    height: 10rem;
+    width: 15rem;
+} 
+h3 {
+    color: var(--gold);
+    font-size: 1.6rem;
+}
+img{
+    display: inline-block;
+    width: 15rem;
+    height: 10rem;
+}

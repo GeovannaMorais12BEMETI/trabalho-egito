@@ -1,0 +1,52 @@
+@import "./global/global.css";
+
+.memphis{
+    width: 100.1%;
+}
+
+.descricao{
+    margin-top: 5rem;
+    font-family: "Trocchi", serif;
+    font-size: 1.2rem;
+    margin-inline: 4rem;
+    margin-bottom: 6rem;
+    align-items: center;
+    display: inline-block;
+}
+
+.descricao p{
+    display: inline-block;
+}
+
+.imagens{
+    width: 30rem;
+    height: 15rem;
+    margin-left: 4rem;
+}
+
+.sub-descricao{
+    margin-top: 5rem;
+    font-family: "Trocchi", serif;
+    font-size: 1.2rem;
+    margin-bottom: 5rem;
+    align-items: center;
+}
+
+.texto{
+    margin-left: 6rem;
+    display: inline-block;
+}
+
+#img{
+    width: 30rem;
+    height: 16.9rem;
+    margin-left: 4rem;
+    display: inline-block;
+}
+
+/*.img{
+    width: 30rem;
+    height: 16.9rem;
+    margin-left: 4rem;
+    display: inline-block;
+}*/

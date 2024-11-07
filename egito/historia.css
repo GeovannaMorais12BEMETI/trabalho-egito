@@ -1,1 +1,58 @@
-@import "/global/global.css";
+@import "/global/cultandhist.css";
+
+h1{
+    font-size: 5.944rem;
+    font-family: "Trocchi", serif;
+    justify-content: center;
+    display: flex;
+    padding: 6rem;
+    margin-bottom: 2rem;
+    color: var(--wine);
+}
+
+.main{
+    background: var(--dutch-white);
+}
+
+.principal{
+    font-size: 1.300rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-inline: 6rem;
+}
+
+.principal p{
+    display: inline-block;
+}
+
+.principal img{
+    margin-left: 15rem;
+    display: inline-block;
+    height: 25rem;
+    width: 20rem;
+}
+
+.sub-princial{
+    font-family: "Trocchi", serif;
+    font-size: 1.2rem;
+    margin-inline: 4rem;
+    margin-bottom: 6rem;
+    align-items: center;
+    display: inline-block;
+}
+
+.sub-principal p{
+    font-size: 1.300rem;
+    display: inline-block;
+    margin-inline: 6rem;
+    margin-bottom: 6rem;
+}
+
+.sub-principal img{
+    margin-left: 6rem;
+    margin-right: 7.789rem;
+    margin-top: 5rem;
+    display: inline-block;
+    height: 15.5rem;
+    width: 27rem;
+}

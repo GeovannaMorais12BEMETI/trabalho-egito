@@ -50,12 +50,11 @@ p{
     gap: 5px;
 }
 
-
 .nav a:hover,
 .nav a:focus {
   color: var(--black);
   border-radius: 1rem 1rem 0 0;
-  background: var(--white);
+  background: var(--dutch-white);
   transition: 0.2s;
   text-decoration: underline;
 }

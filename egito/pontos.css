@@ -4,21 +4,51 @@ h1{
     font-family: "Anton", serif;
     font-size: 3.344rem;
     color: var(--wine);
+    margin-block: 4rem;
+    justify-content: center;
     text-align: center;
+    display: flex;
 }
 
-.primeiro {
+.primeiro img{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    flex-direction: row;
+    margin-inline: 9rem;
+    height: 15rem;
+    width: 20rem;
+}
+
+.primeiro h2{
+    display: inline-block;
+    margin: 2rem;
+}
+
+
+/*.primeiro img {
+    height: 10rem;
+    width: 15rem;
+    flex-direction: column;
+}
+
+.segundo img {
     display: inline-block;
     height: 10rem;
     width: 15rem;
-   
 }
 
+p{
+    font-family: "Trocchi", serif;
+    display: inline-block;
+}
 
 .segundo {
     margin-top: 2rem;
     margin-left: 2rem;
 }
+
 .segundo h2 {
     font-family: "Anton", serif;
     color: var(--gold);
@@ -37,3 +67,4 @@ img{
     width: 15rem;
     height: 10rem;
 }
+*/

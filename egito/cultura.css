@@ -2,6 +2,7 @@
 
 .main{
     background: var(--dutch-white);
+    width: 100%;
 }
 
 #header{
@@ -51,7 +52,7 @@ h2{
 
 .literatura h2{
     color: var(--wine);
-    margin-left: 75rem;
+    margin-left: 80rem;
 }
 
 .literatura img{

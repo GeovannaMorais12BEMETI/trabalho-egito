@@ -9,6 +9,10 @@ h1{
     text-align: center;
     display: flex;
 }
+p{
+    font-family: "Trocchi", serif;
+    display: inline-block;
+}
 
 .primeiro img{ 
     display: flex;
@@ -16,55 +20,51 @@ h1{
     justify-content: center;
     display: inline-block;
     flex-direction: row;
-    margin-inline: 9rem;
+    margin-inline: 3rem;
     height: 15rem;
     width: 20rem;
 }
 
 .primeiro h2{
+    justify-content: center;
+    align-items: center;
     display: inline-block;
-    margin: 2rem;
+    margin: 3rem;
+    font-size: 1.9rem;
 }
-
-
-/*.primeiro img {
-    height: 10rem;
-    width: 15rem;
-    flex-direction: column;
-}
-
-.segundo img {
+.primeiro p {
+    display: flex;
     display: inline-block;
-    height: 10rem;
-    width: 15rem;
+    flex-direction: row;
+    margin-inline: 4rem;
+    width: 20rem; 
 }
-
-p{
-    font-family: "Trocchi", serif;
-    display: inline-block;
-}
-
 .segundo {
-    margin-top: 2rem;
-    margin-left: 2rem;
+    background-color: var(--wine);
 }
+.segundo img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    flex-direction: row;
+    margin-inline: 2rem;
+    height: 10rem;
+    width: 15rem; 
+}
+
 
 .segundo h2 {
     font-family: "Anton", serif;
     color: var(--gold);
-    font-size: 2.344rem;
+    font-size: 3rem;
+    margin: 3rem;
 }
-.segundo p {
-    height: 10rem;
-    width: 15rem;
-} 
-h3 {
+.segundo h3 {
+    
+    display: inline-block;
+    margin: 5rem;
     color: var(--gold);
     font-size: 1.6rem;
 }
-img{
-    display: inline-block;
-    width: 15rem;
-    height: 10rem;
-}
-*/
+

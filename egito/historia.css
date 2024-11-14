@@ -19,7 +19,8 @@ h1{
     margin-bottom: 2rem;
     margin-inline: 5rem;
     display: flex;
-    gap: 20%;
+    justify-content: space-evenly;
+    margin: 4rem 12rem 6rem 12rem;
 }
 
 .principal p{
@@ -35,21 +36,19 @@ h1{
 .sub_princial{
     font-family: "Trocchi", serif;
     font-size: 1.25rem;
-    margin-inline: 5rem;
+    margin-inline: 6rem;
     margin-bottom: 6rem;
-    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4rem 12rem 6rem 12rem;
 }
 
 .sub_principal p{
     display: inline-block;
     font-size: 1.25rem;
-    margin-bottom: 6rem;
-    margin-left: 18%;
 }
 
 .sub_principal img{
-    margin-left: 5rem;
-    margin-top: 5rem;
     height: 15.5rem;
     width: 27rem;
 }

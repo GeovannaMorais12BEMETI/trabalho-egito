@@ -13,7 +13,8 @@
     align-items: center;
     display: inline-block;
     display: flex;
-    gap: 10%;
+    justify-content: space-evenly;
+    margin: 4rem 12rem 6rem 12rem;
 }
 
 .imagens{
@@ -28,7 +29,8 @@
     margin-bottom: 5rem;
     align-items: center;
     display: flex;
-    gap: 10%;
+    justify-content: space-evenly;
+    margin: 4rem 12rem 6rem 12rem;
 }
 
 img, p{

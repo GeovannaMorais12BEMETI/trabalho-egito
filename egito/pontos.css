@@ -9,6 +9,7 @@ h1{
     text-align: center;
     display: flex;
 }
+
 p{
     font-family: "Trocchi", serif;
     display: inline-block;
@@ -17,18 +18,14 @@ p{
 
 .primeiro {
     display: flex;
-    justify-content: center;
     flex-direction: row;
-    align-items: center;
-    margin-inline: 4rem;
+    justify-content: space-between;
 }
 
 .primeiro img {
     height: 15rem;            
     width: 20rem;
-    margin: 2rem;   
-    margin-bottom: 1rem;
-    margin-inline: 8.2rem;
+    margin: 2rem;
     object-fit: cover;
 }
 
@@ -48,11 +45,6 @@ p{
     margin-top: 1rem;
 }
 
-.imagem{
-    display: flex;
-    gap: 2%;
-}
-
 .titulo{
     display: flex;
     gap: 18%;
@@ -63,21 +55,27 @@ p{
 .segundo {
     background-color: var(--wine);
 }
+
+#museu{
+    height: 15rem;
+    width: 21rem;
+}
+
 .segundo img {
     display: inline-block;
     margin-inline: 2.5rem;
-    margin-bottom: 4rem;
     height: 10rem;
     width: 15rem; 
-    margin-inline: 7rem;
     object-fit: cover;
 }
+
 .segundo h2 {
     font-family: "Anton", serif;
     color: var(--gold);
     font-size: 3rem;
     margin: 1rem;
 }
+
 .segundo h3 {
     display: inline-block;
     margin-bottom: 2.5rem;

@@ -13,19 +13,19 @@ p{
     font-family: "Trocchi", serif;
     display: inline-block;
 }
+
+
 .primeiro {
-    display: flex;            /* Torna o contêiner flexível */
-    flex-direction: row;      /* Alinha os itens na horizontal (padrão) */
-    justify-content: space-between;  /* Centraliza os itens no eixo horizontal */
-    align-items: center;      /* Alinha os itens no eixo vertical */
-    gap: 2rem;                /* Espaço entre os itens */
-    margin-inline: 4rem;      /* Espaçamento lateral do contêiner */
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-inline: 4rem;
 }
 
 .primeiro img {
     height: 15rem;            
-    width: 20rem;             
-    object-fit: cover;        
+    width: 20rem;
     margin: 2rem;   
     margin-top: 1rem;
 }
@@ -39,27 +39,32 @@ p{
 }
 
 .primeiro p {
-    margin-inline: 1rem;      /* Espaçamento lateral entre os parágrafos */
-    width: 20rem;             /* Largura do parágrafo */  
+    gap: 10%;
+}
+
+.imagem{
+    display: flex;
+    gap: 2%;
+}
+
+.titulo{
+    display: flex;
+    gap: 18%;
+    margin-inline: 6rem;
     justify-content: space-between;
-    gap: 2rem;
 }
 
 .segundo {
     background-color: var(--wine);
-    justify-content: space-between;
 }
 .segundo img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     display: inline-block;
-    flex-direction: row;
     margin-inline: 2.5rem;
     margin-bottom: 4rem;
     height: 10rem;
     width: 15rem; 
-    object-fit: cover; 
+    margin-inline: 4rem;
+    border-radius: .5rem;
 }
 .segundo h2 {
     font-family: "Anton", serif;
@@ -69,11 +74,18 @@ p{
 }
 .segundo h3 {
     display: inline-block;
-    margin: 2rem;
+    margin-bottom: 2.5rem;
     color: var(--gold);
     font-size: 1.6rem;
     text-align: center;
     margin-top: 1rem;
-    margin-inline: 5.5rem;
 }
 
+.paragrafo{
+    display: inline-block;
+    margin-bottom: 6rem;
+}
+
+.paragrafo p{
+    margin-right: 3rem;
+}

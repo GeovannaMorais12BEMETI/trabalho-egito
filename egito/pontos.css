@@ -13,34 +13,41 @@ p{
     font-family: "Trocchi", serif;
     display: inline-block;
 }
-
-.primeiro img{ 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    display: inline-block;
-    flex-direction: row;
-    margin-inline: 3rem;
-    height: 15rem;
-    width: 20rem;
+.primeiro {
+    display: flex;            /* Torna o contêiner flexível */
+    flex-direction: row;      /* Alinha os itens na horizontal (padrão) */
+    justify-content: space-between;  /* Centraliza os itens no eixo horizontal */
+    align-items: center;      /* Alinha os itens no eixo vertical */
+    gap: 2rem;                /* Espaço entre os itens */
+    margin-inline: 4rem;      /* Espaçamento lateral do contêiner */
 }
 
-.primeiro h2{
-    justify-content: center;
-    align-items: center;
-    display: inline-block;
-    margin: 3rem;
-    font-size: 1.9rem;
+.primeiro img {
+    height: 15rem;            
+    width: 20rem;             
+    object-fit: cover;        
+    margin: 2rem;   
+    margin-top: 1rem;
 }
+
+.primeiro h2 {
+    font-size: 1.9rem;        
+    margin: 2rem;                
+    text-align: center;        
+    display: inline-block;
+    margin-top: 1rem;
+}
+
 .primeiro p {
-    display: flex;
-    display: inline-block;
-    flex-direction: row;
-    margin-inline: 4rem;
-    width: 20rem; 
+    margin-inline: 1rem;      /* Espaçamento lateral entre os parágrafos */
+    width: 20rem;             /* Largura do parágrafo */  
+    justify-content: space-between;
+    gap: 2rem;
 }
+
 .segundo {
     background-color: var(--wine);
+    justify-content: space-between;
 }
 .segundo img {
     display: flex;
@@ -48,23 +55,25 @@ p{
     align-items: center;
     display: inline-block;
     flex-direction: row;
-    margin-inline: 2rem;
+    margin-inline: 2.5rem;
+    margin-bottom: 4rem;
     height: 10rem;
     width: 15rem; 
+    object-fit: cover; 
 }
-
-
 .segundo h2 {
     font-family: "Anton", serif;
     color: var(--gold);
     font-size: 3rem;
-    margin: 3rem;
+    margin: 1rem;
 }
 .segundo h3 {
-    
     display: inline-block;
-    margin: 5rem;
+    margin: 2rem;
     color: var(--gold);
     font-size: 1.6rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-inline: 5.5rem;
 }
 

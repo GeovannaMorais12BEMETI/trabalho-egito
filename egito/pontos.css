@@ -27,7 +27,9 @@ p{
     height: 15rem;            
     width: 20rem;
     margin: 2rem;   
-    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-inline: 8.2rem;
+    object-fit: cover;
 }
 
 .primeiro h2 {
@@ -36,10 +38,14 @@ p{
     text-align: center;        
     display: inline-block;
     margin-top: 1rem;
+    margin-inline: 7rem;
+    font-family: "Trocchi", sans-serif;
 }
 
 .primeiro p {
     gap: 10%;
+    margin-inline: 7rem;
+    margin-top: 1rem;
 }
 
 .imagem{
@@ -63,8 +69,8 @@ p{
     margin-bottom: 4rem;
     height: 10rem;
     width: 15rem; 
-    margin-inline: 4rem;
-    border-radius: .5rem;
+    margin-inline: 7rem;
+    object-fit: cover;
 }
 .segundo h2 {
     font-family: "Anton", serif;
@@ -79,6 +85,7 @@ p{
     font-size: 1.6rem;
     text-align: center;
     margin-top: 1rem;
+    margin-inline: 3.2rem;
 }
 
 .paragrafo{

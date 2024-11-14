@@ -5,8 +5,7 @@ h1{
     font-family: "Trocchi", serif;
     justify-content: center;
     display: flex;
-    padding: 6rem;
-    margin-bottom: 2rem;
+    padding: 2rem;
     color: var(--wine);
 }
 
@@ -15,10 +14,12 @@ h1{
 }
 
 .principal{
-    font-size: 1.300rem;
+    font-size: 1.4rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    margin-inline: 6rem;
+    margin-inline: 5rem;
+    display: flex;
+    gap: 20%;
 }
 
 .principal p{
@@ -26,33 +27,29 @@ h1{
 }
 
 .principal img{
-    margin-left: 15rem;
     display: inline-block;
-    height: 25rem;
+    height: 30rem;
     width: 20rem;
 }
 
-.sub-princial{
+.sub_princial{
     font-family: "Trocchi", serif;
-    font-size: 1.2rem;
-    margin-inline: 4rem;
+    font-size: 1.25rem;
+    margin-inline: 5rem;
     margin-bottom: 6rem;
     align-items: center;
-    display: inline-block;
 }
 
-.sub-principal p{
-    font-size: 1.300rem;
+.sub_principal p{
     display: inline-block;
-    margin-inline: 6rem;
+    font-size: 1.25rem;
     margin-bottom: 6rem;
+    margin-left: 18%;
 }
 
-.sub-principal img{
-    margin-left: 6rem;
-    margin-right: 7.789rem;
+.sub_principal img{
+    margin-left: 5rem;
     margin-top: 5rem;
-    display: inline-block;
     height: 15.5rem;
     width: 27rem;
 }

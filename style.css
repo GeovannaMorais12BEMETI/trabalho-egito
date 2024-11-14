@@ -1,45 +1,42 @@
 @import "./global/global.css";
 
 .memphis{
-    width: 100.1%;
+    width: 100%;
 }
 
 .descricao{
     margin-top: 5rem;
     font-family: "Trocchi", serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-inline: 4rem;
     margin-bottom: 6rem;
     align-items: center;
     display: inline-block;
-}
-
-.descricao p{
-    display: inline-block;
+    display: flex;
+    gap: 10%;
 }
 
 .imagens{
-    width: 30rem;
+    width: 40rem;
     height: 15rem;
-    margin-left: 4rem;
 }
 
 .sub-descricao{
     margin-top: 5rem;
     font-family: "Trocchi", serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 5rem;
     align-items: center;
+    display: flex;
+    gap: 10%;
 }
 
-.texto{
-    margin-left: 6rem;
+img, p{
     display: inline-block;
 }
 
 #img{
-    width: 30rem;
+    width: 40rem;
     height: 16.9rem;
     margin-left: 4rem;
-    display: inline-block;
 }

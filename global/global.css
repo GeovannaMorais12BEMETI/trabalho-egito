@@ -26,15 +26,15 @@ p{
 .links img{
     height: 4rem;
     width: 4rem;
-    margin-top: 1.1rem;
+    padding-top: 0.5rem;
     margin-left: 1rem;
 }
 
 .nav{
     display: inline-block;
-    font-size: 2.800rem;
+    font-size: 2.563rem;
     list-style: none;
-    margin-left: 7rem;
+    margin-left: 3.125rem;
 }
 
 .img{
@@ -46,8 +46,7 @@ p{
     text-decoration: none;
     color: var(--white);
     padding: 0.1rem;
-    padding-top: 1rem;
-    gap: 5px;
+    padding-top: .5rem;
 }
 
 
@@ -58,4 +57,9 @@ p{
   background: var(--white);
   transition: 0.2s;
   text-decoration: underline;
+}
+
+#rodape{
+    width: 100%;
+    height: auto;
 }

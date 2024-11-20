@@ -15,82 +15,75 @@ p{
     display: inline-block;
 }
 
-
-.primeiro {
+.imagem {
+    margin: 0 6rem 4rem 6rem;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-}
-
-.primeiro img {
-    height: 15rem;            
-    width: 20rem;
-    margin: 2rem;
-    object-fit: cover;
-}
-
-.primeiro h2 {
-    font-size: 1.9rem;        
-    margin: 2rem;                
-    text-align: center;        
-    display: inline-block;
-    margin-top: 1rem;
-    margin-inline: 7rem;
-    font-family: "Trocchi", sans-serif;
-}
-
-.primeiro p {
-    gap: 10%;
-    margin-inline: 7rem;
-    margin-top: 1rem;
-}
-
-.titulo{
-    display: flex;
-    gap: 18%;
-    margin-inline: 6rem;
-    justify-content: space-between;
-}
-
-.segundo {
-    background-color: var(--wine);
+    margin: 2rem 10rem 0 10rem;
 }
 
 #museu{
     height: 15rem;
-    width: 21rem;
+    width: 35rem;
+    object-fit: cover;
+    margin-inline: 1.5rem;
 }
 
-.segundo img {
-    display: inline-block;
-    margin-inline: 2.5rem;
-    height: 10rem;
-    width: 15rem; 
+#vale, #piramide{
+    height: 15rem;
+    width: 24rem;
     object-fit: cover;
 }
 
-.segundo h2 {
-    font-family: "Anton", serif;
-    color: var(--gold);
-    font-size: 3rem;
-    margin: 1rem;
+.h2{
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.segundo h3 {
+.primeiro h2 {
+    font-size: 1.9rem;
+    align-items: center;
     display: inline-block;
-    margin-bottom: 2.5rem;
-    color: var(--gold);
-    font-size: 1.6rem;
-    text-align: center;
-    margin-top: 1rem;
-    margin-inline: 3.2rem;
+    font-family: "Trocchi", sans-serif;
 }
 
 .paragrafo{
-    display: inline-block;
-    margin-bottom: 6rem;
+    font-size: 0.938rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 11rem 4rem 10rem;
 }
 
-.paragrafo p{
-    margin-right: 3rem;
+.segundo{
+    background: var(--wine);
+    color: var(--gold);
+    padding-block: 2.5rem;
+}
+
+.segundo h2{
+    font-family: "Anton";
+    font-size: 3.344rem;
+    margin-bottom: 2.5rem;
+    margin-left: 3rem;
+}
+
+.titulo{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.titulo h3{
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.imagens{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagens img{
+    height: 12rem;
+    width: 12rem;
+    object-fit: cover;
 }

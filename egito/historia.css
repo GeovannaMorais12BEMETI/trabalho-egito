@@ -15,11 +15,9 @@ h1{
 
 .principal{
     font-size: 1.4rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    margin-inline: 5rem;
     display: flex;
     justify-content: space-evenly;
+    gap: 5%;
     margin: 4rem 12rem 6rem 12rem;
 }
 
@@ -33,14 +31,13 @@ h1{
     width: 20rem;
 }
 
-.sub_princial{
+.sub_principal{
     font-family: "Trocchi", serif;
     font-size: 1.25rem;
-    margin-inline: 6rem;
-    margin-bottom: 6rem;
     display: flex;
     justify-content: space-evenly;
-    margin: 4rem 12rem 6rem 12rem;
+    gap: 5%;
+    margin: 4rem 11rem 6rem 12rem;
 }
 
 .sub_principal p{

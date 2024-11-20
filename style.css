@@ -14,7 +14,8 @@
     display: inline-block;
     display: flex;
     justify-content: space-evenly;
-    margin: 4rem 12rem 6rem 12rem;
+    gap: 5%;
+    margin: 4rem 12em 6rem 11rem;
 }
 
 .imagens{
@@ -30,7 +31,8 @@
     align-items: center;
     display: flex;
     justify-content: space-evenly;
-    margin: 4rem 12rem 6rem 12rem;
+    gap: 5%;
+    margin: 4rem 10rem 6rem 4rem;
 }
 
 img, p{
